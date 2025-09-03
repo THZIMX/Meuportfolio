@@ -1,6 +1,5 @@
 const nomeCompleto = [
-  { texto: "Mateus/", cor: "#4aa3ff" },
-  { texto: "THZIMX", cor: "#0054aa" }
+  { texto: "Mateus", cor: "#4aa3ff" }
 ];
 const textoTopo = nomeCompleto.map(p => p.texto).join("");
 const typedTopo = document.getElementById("typed-name");
